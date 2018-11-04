@@ -31,7 +31,12 @@ class Calculator
 
     public function modulo()
     {
-        return $this->_fval & $this->_sval;
+        return $this->_fval % $this->_sval;
+    }
+
+    public function potential()
+    {
+        return $this->_fval ** $this->_sval;
     }
 
 }
