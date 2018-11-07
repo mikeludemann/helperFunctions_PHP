@@ -10,32 +10,44 @@ class sortingArray
 
     public function asc()
     {
-        return sort($this->_input);
+        sort($this->_input);
+
+        return $this->_input;
     }
 
     public function desc()
     {
-        return rsort($this->_input);
+        rsort($this->_input);
+
+        return $this->_input;
     }
 
     public function ascValue()
     {
-        return asort($this->_input);
+        asort($this->_input);
+
+        return $this->_input;
     }
 
     public function ascKey()
     {
-        return ksort($this->_input);
+        ksort($this->_input);
+
+        return $this->_input;
     }
 
     public function descValue()
     {
-        return arsort($this->_input);
+        arsort($this->_input);
+
+        return $this->_input;
     }
 
     public function descKey()
     {
-        return krsort($this->_input);
+        krsort($this->_input);
+
+        return $this->_input;
     }
 }
 ?>
