@@ -1,0 +1,21 @@
+{
+    "name": "mikeludemann/helper-functions_php",
+    "description": "Helper Function for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Ludemann",
+            "email": "mike-ludemann@hotmail.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "jaybizzle/crawler-detect": "1.*",
+        "mobiledetect/mobiledetectlib": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5@dev"
+    }
+}

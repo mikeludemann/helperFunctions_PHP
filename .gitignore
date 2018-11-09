@@ -6,3 +6,5 @@
 .Spotlight-V100
 .Trashes
 Desktop.ini
+/vendor/
+composer.lock
